@@ -7,7 +7,30 @@ notes.get('/', (req, res) => {
 });
 
 notes.post('/', (req, res) => {
-    console.log(req.body);
+    
+    const { title, text } = req.body;
 
-    const {}
-})
+    if ( title && text) {
+
+     const newNote = {
+            title,
+            text,
+            note_id: uuid(),
+    
+        };
+
+        readAndAppend(newNote, './db/db.json');
+
+        const response = {
+            status: 'success',
+            body: newNote,
+        };
+
+        res.json(response);
+     } else {
+        res.json(err)
+     }
+
+    });
+
+    module.exports = notes; 
