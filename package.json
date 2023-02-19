@@ -1,0 +1,23 @@
+{
+  "name": "note-app",
+  "version": "1.0.0",
+  "description": "note taking app",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/metoama/Note-Taking-Application.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/metoama/Note-Taking-Application/issues"
+  },
+  "homepage": "https://github.com/metoama/Note-Taking-Application#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
