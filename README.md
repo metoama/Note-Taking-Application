@@ -1,5 +1,7 @@
 # Note-Taking-Application
+![Notes Home](./assets/notesHome.png)
 
+![Notes Page](./assets/notesPage.png)
 ## Description
 App that can be used to write and save notes. 
 
